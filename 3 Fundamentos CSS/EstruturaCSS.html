@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <style>
+
+/* 
+### Estrutura da Sintaxe CSS 🖋️
+
+Uma regra CSS é composta por um seletor e um bloco de declarações. Aqui está um exemplo básico:
+
+- **Seletor (`p`)**: Seleciona todos os elementos `<p>` na página.
+- **Declarações (`color: blue; font-size: 16px;`)**: Definem as propriedades e valores aplicados aos elementos selecionados.
+*/
+        p{
+            color: blue;
+            font-size: 16px;
+        }
+
+/* ### Tipos de Seletores 🏷️
+
+CSS oferece vários tipos de seletores para aplicar estilos de maneira específica:
+
+1. **Seletores de Elementos**: Selecionam todos os elementos de um determinado tipo. Ex: `p { color: blue; }`
+2. **Seletores de Classe**: Selecionam elementos com um atributo `class` específico. Ex: `.minhaClasse { color: red; }`
+3. **Seletores de ID**: Selecionam elementos com um atributo `id` específico. Ex: `#meuId { color: green; }`
+4. **Seletores Atributo**: Selecionam elementos com um atributo específico. Ex: `a[target="_blank"] { color: orange; }`
+5. **Seletores Combinadores**: Seletores que combinam outros seletores para uma seleção mais precisa. Ex: `div > p { color: purple; }` */
+
+/* ## Estilizando Texto ✍️
+
+CSS oferece uma ampla gama de propriedades para estilizar texto, controlando fontes, tamanhos, cores, espaçamento, e alinhamento.
+
+### 3.3.1 Propriedades de Fonte 🖋️
+
+- **`font-family`**: Define a família de fontes para o texto. Ex: `font-family: Arial, sans-serif;`
+- **`font-size`**: Define o tamanho da fonte. Ex: `font-size: 16px;`
+- **`font-weight`**: Define a espessura da fonte. Ex: `font-weight: bold;`
+- **`font-style`**: Define o estilo da fonte (normal, itálico, oblíquo). Ex: `font-style: italic;`
+- **`line-height`**: Define a altura da linha do texto. Ex: `line-height: 1.5;`
+
+### 3.3.2 Propriedades de Cor e Fundo 🌈
+
+- **`color`**: Define a cor do texto. Ex: `color: blue;`
+- **`background-color`**: Define a cor de fundo do elemento. Ex: `background-color: yellow;`
+
+### 3.3.3 Propriedades de Espaçamento 📏
+
+- **`letter-spacing`**: Define o espaçamento entre caracteres. Ex: `letter-spacing: 1px;`
+- **`word-spacing`**: Define o espaçamento entre palavras. Ex: `word-spacing: 2px;`
+- **`text-align`**: Define o alinhamento do texto. Ex: `text-align: center;` */
+
+    </style>
+
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- estilo inline -->
+
+    <p style="color: red; font-size: 16px;">Texto vermelho, tamanho 16px</p>
+
+    <!-- ### Estilos Internos 📝
+
+Os estilos internos são definidos dentro da tag `<style>` no cabeçalho do documento HTML. Exemplo:
+    -->
+<head>
+    <style>
+        p{
+            color: blue;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+
+<!-- ### Estilos Externos 📄
+
+Os estilos externos são definidos em um arquivo CSS separado, que é referenciado no documento HTML usando a tag `<link>`. Exemplo: -->
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+No arquivo styles.css:
+p {
+    color: blue;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+</body>
+</html>
+
