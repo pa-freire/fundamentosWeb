@@ -17,7 +17,7 @@ function parImpar(idade){
 if(25 % 2 ===  0){
     console.log(idade + " é par");
 }else{
-    console.log(Idade + " é impar");
+    console.log(idade + " é impar");
 }
 }
 parImpar(idade);
