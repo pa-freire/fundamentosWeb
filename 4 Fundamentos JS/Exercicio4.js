@@ -21,3 +21,8 @@ if(25 % 2 ===  0){
 }
 }
 parImpar(idade);
+
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
+
